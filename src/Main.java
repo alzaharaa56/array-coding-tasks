@@ -9,6 +9,9 @@ public class Main {
         int[] a= {1,2,3};
         int[] b= {7,3};
         System.out.println("Task 2:"+ (commonEnd(a,b)));
+
+
+
     }
 
         public static boolean firstLast6(int[]nums) {
