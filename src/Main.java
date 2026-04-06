@@ -9,6 +9,7 @@ public class Main {
         int[] a= {1,2,3};
         int[] b= {7,3};
         System.out.println("Task 2:"+ (commonEnd(a,b)));
+        System.out.println(task9.unlucky1(a));
 
 
 
