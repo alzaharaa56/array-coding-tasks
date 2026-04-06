@@ -3,7 +3,12 @@
 public class Main {
     public static void main(String[] args) {
         int[] myNumbers = {1, 2, 6};
-        System.out.println((firstLast6(myNumbers)));
+
+        System.out.println(("Task 1:"+ firstLast6(myNumbers));
+
+        int[] a= {1,2,3};
+        int[] b= {7,3};
+        System.out.println(("Task 2:"+ commonEnd(a,b));
     }
 
         public static boolean firstLast6(int[]nums) {
@@ -15,5 +20,18 @@ public class Main {
             return isSix;
         }
 
-    }
+
+
+    // Task 2: commonEnd
+
+public static boolean commonEnd (int[] a, int[] b) {
+
+    boolean sameFirst = (a[0] == b[0]);
+    boolean sameLast = (a[a.length - 1] == b[b.length - 1]);
+    return (sameFirst || sameLast);
+}
+}
+
+
+
 
