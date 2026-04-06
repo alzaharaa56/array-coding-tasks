@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int[] myNumbers = {1, 2, 6};
 
-        System.out.println(("Task 1:"+ firstLast6(myNumbers));
+        System.out.println("Task 1:"+ firstLast6(myNumbers));
 
         int[] a= {1,2,3};
         int[] b= {7,3};
-        System.out.println(("Task 2:"+ commonEnd(a,b));
+        System.out.println("Task 2:"+ (commonEnd(a,b)));
     }
 
         public static boolean firstLast6(int[]nums) {
