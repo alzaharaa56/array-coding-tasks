@@ -13,6 +13,7 @@ public class Task13 {
             System.out.print(result[i]);}
             if (i < result.length - 1) {
 
+
             }
         }
 
